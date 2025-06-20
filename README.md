@@ -14,7 +14,7 @@ FlightDrop addresses this by combining real-time flight search with personalised
 
 View the live project here: [FlightDrop Demo](https://flightdrop.vercel.app/)
 
-<img width="600" alt="Screenshot 2025-06-19 at 20 31 24" src="https://github.com/user-attachments/assets/e9451f83-244a-408f-a245-f395cea815ac" />
+![Untitled design (1)](https://github.com/user-attachments/assets/88dc9df5-60d5-48b9-9e6a-7d2c6d461ece)
 
 ---
 
@@ -32,6 +32,15 @@ Flight Finder is a full stack application built using the **MERN** stack with ad
 - **Responsive Design:** Fully mobile-friendly layout for seamless experience on all screen sizes
 - **Environment:** dotenv for secure API key management
 - **Deployment:** hosted on Vercel and Railway
+
+---
+
+## New Technologies Being Added in Development
+To improve scalability, user experience, and performance, FlightDrop will incorporate:
+- OAuth for seamless and secure user authentication
+- Redis to cache flight search results and improve API response times
+- Email alert system (using services like SendGrid or Nodemailer) to notify users instantly of flight price drops
+- Comprehensive testing with Jest for unit tests and Cypress for end-to-end testing to ensure reliability and quality
 
 ---
 
@@ -69,13 +78,3 @@ Flight Finder is a full stack application built using the **MERN** stack with ad
 | API Integration| RapidAPI Flight API  | Real-time flight data           |
 | State & Dates  | React Hooks, date-fns, react-date-range | State management & date handling |
 | Environment    | dotenv               | Secure management of secrets    |
-
----
-
-## Future Improvements
-
-- User authentication & authorisation for personalised experiences
-- Multi-city flight search enhancements
-- Improved caching and performance optimisation
-- Complete notification system with email/SMS alerts
-- Complete real historical data
